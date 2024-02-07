@@ -1,0 +1,61 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: skyblue;
+}
+
+.row1 {
+  display: flex;
+  gap: 8px;
+}
+
+.top-btn {
+  padding: 20px 55px;
+}
+.clear {
+  background: yellow;
+}
+
+.del {
+  background: green;
+}
+.btn-container {
+  gap: 2px;
+  width: 380px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.output {
+  padding: 15px;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  width: 275px;
+  height: 40px;
+}
+
+.calculator {
+  background-color: grey;
+  width: 380px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
